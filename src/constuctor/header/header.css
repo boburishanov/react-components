@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 91vh;
+    background-color: rgb(205, 234, 229);
+}
+header .box{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .box .img{
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+    background-image: url(../img/businessman_holding_virtual_world_with_icons_and_connection_line.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+header .box .img h2{
+    margin: 30px 30px 10px 30px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;  
+}
+header .box .img p{
+    width: 250px;
+    margin: 30px;
+    color: rgb(4, 246, 218);
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;  
+}
+header .box .img a{
+    margin: 30px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 15px 80px;
+    border-radius: 14px;
+}
+header .box .img a:hover{
+    border: 1px solid rgb(4, 246, 218);
+    color: rgb(4, 246, 218);
+}

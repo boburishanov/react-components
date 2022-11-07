@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(178, 225, 216);
+}
+.container .nav{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.container .nav .logo{
+    width: 30%;
+    height: 100%;
+}
+.container .nav .logo h2{
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.container .nav .text{
+    width: 70%;
+    height: 100%;
+}
+.container .nav .text ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+.container .nav .text ul li a{
+    font-size: 20px;
+    padding: 10px;
+    color: #000;
+}
+.container .nav .text ul li a:hover{
+    border: 1px solid #000;
+    border-radius: 10px;
+}
